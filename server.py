@@ -5,7 +5,7 @@ import keras_preprocessing
 from keras_preprocessing import image
 from keras_preprocessing.image import ImageDataGenerator
 import tensorflow as tf
-new_model = tf.keras.models.load_model('D:\\Major Project\\pneumonia\\review 2\\latest.h5')
+new_model = tf.keras.models.load_model('<Path to weights file>(latest.h5)')
 import numpy as np
 import flask
 from keras.preprocessing import image
